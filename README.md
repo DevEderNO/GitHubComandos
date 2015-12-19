@@ -4,10 +4,12 @@
 
 ## Descrição da documentação ##
 Nessa documentação será mostrado os principais códigos usados no Git, de modo que venha facilitar a vida do programador no seu dia a dia.
+:octcat:
+:star:
 
-sudo apt-get install git → Instalação do git no  linux ubuntu
-git --version --> Saber a versão atual do git.
-git --help --> Dúvidas sobre os comandos no git.
+- sudo apt-get install git → Instalação do git no  linux ubuntu
+- git --version --> Saber a versão atual do git.
+- git --help --> Dúvidas sobre os comandos no git.
 pwd --> Em qual diretório estou no momento.
 clear --> limpa a tela.
 git config --global user.name "Khalleb Ribeiro" --> Configurar o usuário no pc

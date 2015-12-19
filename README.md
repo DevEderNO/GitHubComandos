@@ -1,7 +1,8 @@
 # Comandos Básicos - GitHub #
 
 
-<img src="http://i.imgur.com/kDCcizZ.png" width="120">
+<!--<img src="http://i.imgur.com/kDCcizZ.png" width="120">-->
+
 
 * [Verificar site](https://github.com/wpbrasil/odin)
 

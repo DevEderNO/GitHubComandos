@@ -1,6 +1,7 @@
 # Comandos Básicos - GitHub #
 
-![Odin Framework](http://i.imgur.com/kDCcizZ.png =368x539)
+![Odin Framework](http://i.imgur.com/kDCcizZ.png)
+<img src="http://i.imgur.com/kDCcizZ.png" width="50">
 
 * [Verificar site](https://github.com/wpbrasil/odin)
 

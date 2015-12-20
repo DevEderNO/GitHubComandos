@@ -9,26 +9,37 @@
 ## Descrição da documentação ##
 Nessa documentação será mostrado os principais códigos usados no Git, de modo que venha facilitar a vida do programador no seu dia a dia. </br>
 
-
 ## Comandos ##
 
-
-- **sudo apt-get install git**</br>
+- **sudo apt-get install git** </br>
     Instalação do git no linux ubuntu.
-- **Para outras sistema operacionais**</br>
-   [Clique aqui](https://git-scm.com/downloads)
+- **Download do Git para outros sistemas operacionais** </br>
+   [Clique aqui.](https://git-scm.com/downloads)
 - **git --version**</br>
     Saber a versão atual do git. 
-- **git config --global user.name "Dilma Rousseff"**</br>
+- **git config --global user.name "Dilma Rousseff"** </br>
     Configurando o seu nome do Git.
-- **git config --global user.email "dilma171@gmail.com"**</br>>
+- **git config --global user.email "dilma171@gmail.com"** </br>
     Configurando o seu email no Git.
-- **git config --global color.ui true**</br>
+- **git config --global color.ui true** *Opcional* </br>
     Ativando cores diferentes no terminal.    
-- **git config --global core.editor "notepad.exe"** *Opcional*</br>
+- **git config --global core.editor "notepad.exe"** *Opcional* </br>
     Configurando qual editor de texto fará a edição das mensagens de commit e tags.
-- git config --list 
-    Quais configurações estão em meu git
+- **git config --list**</br> 
+    Veririfacando quais configuraões estão no Git.
+- **git init** </br>
+    Trasnforma um diretório de trabalho em um repositório Git.
+- **git status** </br>
+    Visualizando arquivos no repositório Git.
+- **git add .** </br>
+    Para que todos os arquivos do diretório sejam rastreados.
+- **git add “nome do arquivo.java”** </br>
+    Rastrar apenas um arquivo do diretório.   
+- **git commit -m "Primeiro commit"** </br>
+       
+    
+    
+
 - git config user.email
     Qual email está configurado
 - git config user.name
@@ -39,16 +50,11 @@ Nessa documentação será mostrado os principais códigos usados no Git, de mod
     abrir arquivos ocultos
 - mkdir nomedapasta 
     cria uma pasta em qual diretório você está no momento
-- git init
-    Cria um repositório vazio no git
-- git add .
-    Incluir tudo que está dentro do diretório para o controle de versão.
-- git add “nome do arquivo.java”
-    Commitar apenas um arquivo e não toda a pasta
-- git status 
-    Verificar arquivos que vão ser comitados.
-- git commit -m "Primeiro commit" 
-    fazer um commit com uma mensagem.
+
+
+
+
+
 - git log 
     Registrado o que foi feito.
 - git log --author="khalleb"

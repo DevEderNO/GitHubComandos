@@ -11,9 +11,9 @@ Nessa documentação será mostrado os principais códigos usados no Git, de mod
 
 
 ## Comandos ##
-- *sudo apt-get install git* 
+- ####**sudo apt-get install git**#### </br>
     Instalação do git no  linux ubuntu
-- **git --version** 
+- ####**git --version**#### 
     Saber a versão atual do git.
     
     

@@ -28,7 +28,7 @@ Nessa documentação será mostrado os principais códigos usados no Git, de mod
 - **git config --list**</br> 
     Veririfacando quais configuraões estão no Git.
 - **git init** </br>
-    Trasnforma um diretório de trabalho em um repositório Git.
+    Transformando um diretório de trabalho em um repositório Git.
 - **git status** </br>
     Visualizando arquivos no repositório Git.
 - **git add .** </br>
@@ -36,6 +36,13 @@ Nessa documentação será mostrado os principais códigos usados no Git, de mod
 - **git add “nome do arquivo.java”** </br>
     Rastrar apenas um arquivo do diretório.   
 - **git commit -m "Primeiro commit"** </br>
+    *Comitando* um arquivo.
+- **git log** </br> 
+    Verificando o histórico das alterações gravadas no repositório.
+- **git log --author="Rousseff"** </br>
+    fazer um filtro no log, com isso retorna apenas comit's feito pelo autor Rousseff.
+- **git remote add origin *https://github.com/fulanodasilva/meurepositorio.git* ** </br>
+    Apontando seu projeto para o GitHub.
        
     
     
@@ -55,14 +62,11 @@ Nessa documentação será mostrado os principais códigos usados no Git, de mod
 
 
 
-- git log 
-    Registrado o que foi feito.
-- git log --author="khalleb"
-    fazer um filtro no log, com isso retorna apenas comit's feito pelo autor kalleb.
+
+
 - git log --grep="Primeiro" 
     Faz uma condição para buscar a palavra 'Primeiro' nos comit's
-- git remote add origin https://github.com/fulanodasilva/citacoes.git
-    Logar no git hub e selecionar o repositório. 
+
 - git push origin master
     Será enviado o código para o git hub.
 - git diff

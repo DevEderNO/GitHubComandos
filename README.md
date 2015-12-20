@@ -1,19 +1,15 @@
+<!--Feito por Khalleb Ribeiro-->
+
 # Comandos Básicos - GitHub #
 
-
-<!--<img src="http://i.imgur.com/kDCcizZ.png" width="120">-->
-
-
-<!--* [Verificar site](https://github.com/wpbrasil/odin)-->
-
 ## Descrição da documentação ##
-Nessa documentação será mostrado os principais códigos usados no Git, de modo que venha facilitar a vida do programador no seu dia a dia. </br>
+Nessa documentação será mostrado alguns dos principais códigos usados no Git, de modo que venha facilitar a vida do programador no seu dia a dia. </br>
 
 ## Comandos ##
 
 - **sudo apt-get install git** </br>
     Instalação do git no linux ubuntu.
-- **Download do Git para outros sistemas operacionais** </br>
+- **Download do Git para outros sistemas operacionais.** </br>
    [Clique aqui.](https://git-scm.com/downloads)
 - **git --version**</br>
     Saber a versão atual do git. 
@@ -40,71 +36,46 @@ Nessa documentação será mostrado os principais códigos usados no Git, de mod
 - **git log** </br> 
     Verificando o histórico das alterações gravadas no repositório.
 - **git log --author="Rousseff"** </br>
-    fazer um filtro no log, com isso retorna apenas comit's feito pelo autor Rousseff.
-- **git remote add origin *https://github.com/fulanodasilva/meurepositorio.git* ** </br>
+    fazer um filtro no log, com isso retorna apenas *commit's* feito pelo autor Rousseff.
+- **git remote add origin https://github.com/fulanodasilva/meurepositorio.git** </br>
     Apontando seu projeto para o GitHub.
-       
-    
-    
-
-- git config user.email
-    Qual email está configurado
-- git config user.name
-    Qual nome está configurado
-- ls -la 
-    visualizar arquivos ocultos no windows e linux
-- cat .gitconfig | cat. arquivo.java
-    abrir arquivos ocultos
-- mkdir nomedapasta 
-    cria uma pasta em qual diretório você está no momento
-
-
-
-
-
-
-
-- git log --grep="Primeiro" 
-    Faz uma condição para buscar a palavra 'Primeiro' nos comit's
-
-- git push origin master
-    Será enviado o código para o git hub.
-- git diff
-    Verificar o que foi alterado no conteúdo;
-- git diff --staged
-    Vai está verificando o que foi mudado no repósitorio na stand e no diretorio de trabalho.
-- rm “nome arquivo.java”
-    excluir um arquivo e vai para a lixeira
-- git rm  “nome do aruqivo.java” 
-    exclui tudo e não vai para a lixeira, pois já vai para o branch
-- git commit --amend
-    Alterar a mensagem do ultimo commit.
-- git checkout -- “nome do arquivo.java”
-    restaurar um arquivo que foi modificado para o diretorio de trabalho;
-- git reset HEAD meuArquivo.java 
-    remove o arquivo que está área de stade e volta para o diretorio de trabalho.
-- touch  nomeArquivo 
-    Cria um novo arquivo
-- mv meuArquivo meuArquivoRenomeado.java
-    Renomear um arquivo 
-    Após ter nomeado o arquivo será obrigatorio fazer o camando.
-    git rm meuAqruivo
-- git mv meuArquivo meuArquivoRenomeado.java
-    Vai renomear o arquivo, e com isso não será necessário fazer o processo anterior. 
-- git mv meuAqruivo caminho/meuArquivo.java
-    O comando mv serve para tanto, renomear um arquivo ou mover um arquivo para outra pasta
-- git commit --amend -m “Texto” 
-    Desfazer o ultimo  commit no stande 
-- git clean -n 
-    vou está verificando no meu arquivo de trabalho o que será removido
-- git clean -f
-    vou força o git remover os arquivos que estão no meu arquivo de trabalho.
-- git checkout 0b8d9f7 -- meuArquivo.java
-    Vai pegar um determinado commit  da branch atual e recuperar ele. Obs: Os numeros significa a hash que quero recuperar. não precisa digitalizar a hash inteira.
-
-## Outros Comandos ##
-- pwd --> Em qual diretório estou no momento.
+- **git push origin master** </br>
+    Enviando as alterações para o GitHub.
+- **git clone https://github.com/fulanodasilva/meurepositorio.git** </br>
+    Obtendo um projeto no GitHub
+- **git diff** </br>
+    Verificando as diferenças entre o arquivo alterado e o que foi comitado anteriormente.
+- **git diff --staged** </br>
+    Mostrando as diferenças entre os arquivos na área de stage e a última versão que foi comitada.
+- **git rm  “nome do arquivo.java”** </br>
+    Com o camando acima pode está removendo o arquivo e editando na stage.
+- **git mv meuArquivo meuArquivoRenomeado.java** </br>
+    Renomeando um arquivo.
+- **git mv meuAqruivo caminho/meuArquivo.java** </br>
+    O comando mv serve para tanto, renomear um arquivo ou mover um arquivo para outra pasta.
+- **git checkout -- meuArquivo.java** </br>
+    O comando acima desfaz as alterações ainda não rastreadas, ou seja,que ainda não estão na área de stage, voltando ao     conteúdo anterior do arquivo.
+- **git reset -- meuArquivo.java** </br>
+    Removendo alterações de um arquivo qundo estver na área de stage.
+- **git revert --no-edit 1512154** </br>
+    Desfazendo mudanças já comitadas.
+    Nesse comando, o código 1512154 representa o último commit efetuado.
 - **git --help**</br> 
     Dúvidas sobre os comandos no git.
+- **git config user.email** </br>
+    Verificando qual email está configurado no meu git.
+- **git config user.name** </br>
+    Verificando qual email usúario configurado no meu git.
+
+## Outros Comandos ##
+- **pwd** </br>
+    Saber qual diretório estou no momento.
 - **clear**</br>
-    Limpar a tela.
+    Limpar o terminal
+- **ls -la** </br> 
+    visualizar arquivos ocultos no windows e linux.
+- **cat. arquivo.java** </br>
+    abrir arquivos ocultos.
+- **mkdir nomedapasta** </br>
+    cria uma pasta em qual diretório você está no momento.
+  

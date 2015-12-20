@@ -4,15 +4,19 @@
 <!--<img src="http://i.imgur.com/kDCcizZ.png" width="120">-->
 
 
-* [Verificar site](https://github.com/wpbrasil/odin)
+<!--* [Verificar site](https://github.com/wpbrasil/odin)-->
 
 ## Descrição da documentação ##
 Nessa documentação será mostrado os principais códigos usados no Git, de modo que venha facilitar a vida do programador no seu dia a dia. </br>
 
 
 ## Comandos ##
-- sudo apt-get install git → Instalação do git no  linux ubuntu
-- git --version --> Saber a versão atual do git.
+- *sudo apt-get install git* 
+    Instalação do git no  linux ubuntu
+- **git --version** 
+    Saber a versão atual do git.
+    
+    
 - git --help --> Dúvidas sobre os comandos no git.
 - pwd --> Em qual diretório estou no momento.
 - clear --> limpa a tela.

@@ -97,4 +97,6 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
     abrir arquivos ocultos.
 - **mkdir nomedapasta** </br>
     cria uma pasta em qual diretório você está no momento.
+    
+    #### Legende conosco ####
   

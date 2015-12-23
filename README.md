@@ -35,6 +35,8 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
     *Comitando* um arquivo.
 - **git log** </br> 
     Verificando o histórico das alterações gravadas no repositório.
+- **git log --oneline** </br>
+    Listando as mensagens dos commit's.
 - **git log --author= "Rousseff"** </br>
     fazer um filtro no log, com isso retorna apenas *commit's* feito pelo autor Rousseff.
 - **git remote add origin https://github.com/fulanodasilva/meurepositorio.git** </br>
@@ -76,9 +78,16 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
     Verificando em qual branch estou no momento.
 - **git branch nomeMeuBranch** </br>
     Criando uma branch.
-- **git checkout nomeMeuBranch** </br>
+- **git checkout nomeMeuBranch** </br> 
     Alterando para outra branch.
-    
+- **git branch --move branchNomeAtual branchNovoNome** </br>
+    Renomeando o nome da branch.
+- **git branch -d nomeBranch** </br>
+    Removendo a branch.
+- **git merge nomeMinhaBrach** </br>
+    Pegando as alterações que foram feitas na branch "nomeMinhaBrach" e jogando na branch "master".
+- **git 
+
 ## Outros Comandos ##
 - **pwd** </br>
     Saber qual diretório estou no momento.

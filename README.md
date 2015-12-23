@@ -35,7 +35,7 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
     *Comitando* um arquivo.
 - **git log** </br> 
     Verificando o histórico das alterações gravadas no repositório.
-- **git log --author="Rousseff"** </br>
+- **git log --author= "Rousseff"** </br>
     fazer um filtro no log, com isso retorna apenas *commit's* feito pelo autor Rousseff.
 - **git remote add origin https://github.com/fulanodasilva/meurepositorio.git** </br>
     Apontando seu projeto para o GitHub.
@@ -54,19 +54,31 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
 - **git mv meuAqruivo caminho/meuArquivo.java** </br>
     O comando mv serve para tanto, renomear um arquivo ou mover um arquivo para outra pasta.
 - **git checkout -- meuArquivo.java** </br>
-    O comando acima desfaz as alterações ainda não rastreadas, ou seja,que ainda não estão na área de stage, voltando ao     conteúdo anterior do arquivo.
+  
 - **git reset -- meuArquivo.java** </br>
-    Removendo alterações de um arquivo qundo estver na área de stage.
+    Removendo alterações de um arquivo quando estiver na área de stage.
+- **git reset HEAD nomeArquivo.java** </br>
+    Retirando um arquivo da stade para o dirtório de trabalho.
+- **git show HEAD** </br>
+    Mostra o que foi alterado no último commit.
 - **git revert --no-edit 1512154** </br>
     Desfazendo mudanças já comitadas.
-    Nesse comando, o código 1512154 representa o último commit efetuado.
+    Nesse comando, o código 1512154 repres  enta o último commit efetuado.
 - **git --help**</br> 
     Dúvidas sobre os comandos no git.
 - **git config user.email** </br>
     Verificando qual email está configurado no meu git.
 - **git config user.name** </br>
     Verificando qual email usúario configurado no meu git.
-
+- **git clean -f** </br>
+    Remover todos arquivos que ainda não estão na stade.
+- **git branch** </br>
+    Verificando em qual branch estou no momento.
+- **git branch nomeMeuBranch** </br>
+    Criando uma branch.
+- **git checkout nomeMeuBranch** </br>
+    Alterando para outra branch.
+    
 ## Outros Comandos ##
 - **pwd** </br>
     Saber qual diretório estou no momento.

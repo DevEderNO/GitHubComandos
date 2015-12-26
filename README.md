@@ -57,8 +57,7 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
     Renomeando um arquivo.
 - **git mv meuAqruivo caminho/meuArquivo.java** </br>
     O comando mv serve para tanto, renomear um arquivo ou mover um arquivo para outra pasta.
-- **git checkout -- meuArquivo.java** </br>  
-    aaaaaaaaaaaaa
+- **git checkout -- meuArquivo.java** </br>
 - **git reset -- meuArquivo.java** </br>
     Removendo alterações de um arquivo quando estiver na área de stage.
 - **git reset HEAD nomeArquivo.java** </br>

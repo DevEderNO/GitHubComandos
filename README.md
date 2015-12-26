@@ -58,7 +58,7 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
 - **git mv meuAqruivo caminho/meuArquivo.java** </br>
     O comando mv serve para tanto, renomear um arquivo ou mover um arquivo para outra pasta.
 - **git checkout -- meuArquivo.java** </br>  
-
+    aaaaaaaaaaaaa
 - **git reset -- meuArquivo.java** </br>
     Removendo alterações de um arquivo quando estiver na área de stage.
 - **git reset HEAD nomeArquivo.java** </br>
@@ -79,7 +79,7 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
 - **git branch** </br>
     Verificando em qual branch estou no momento.
 - **git branch -r** </br>
-    O códifo acima mostra as branches, após ter feito um git clone master.
+    O código acima mostra as branches, após ter feito um git clone master.
 - **git branch nomeMeuBranch** </br>
     Criando uma branch.
 - **git checkout nomeMeuBranch** </br> 

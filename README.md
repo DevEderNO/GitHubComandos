@@ -14,9 +14,9 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
 - **git --version**</br>
     Saber a versão atual do git. 
 - **git config --global user.name "Dilma Rousseff"** </br>
-    Configurando o seu nome do Git.
+    Configurando o seu nome do Git no repositório local.
 - **git config --global user.email "dilma171@gmail.com"** </br>
-    Configurando o seu email no Git.
+    Configurando o seu email no Git no repositório local.
 - **git config --global color.ui true** *Opcional* </br>
     Ativando cores diferentes no terminal.    
 - **git config --global core.editor "notepad.exe"** *Opcional* </br>
@@ -41,7 +41,9 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
     fazer um filtro no log, com isso retorna apenas *commit's* feito pelo autor Rousseff.
 - **git remote add origin https://github.com/fulanodasilva/meurepositorio.git** </br>
     Apontando seu projeto para o GitHub.
-- **git push origin master** </br>
+- **git remote -v** </br>
+    Verificando a url do repositório.
+- **git push origin master** </br> 
     Enviando as alterações para o GitHub.
 - **git clone https://github.com/fulanodasilva/meurepositorio.git** </br>
     Obtendo um projeto no GitHub
@@ -56,6 +58,7 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
 - **git mv meuAqruivo caminho/meuArquivo.java** </br>
     O comando mv serve para tanto, renomear um arquivo ou mover um arquivo para outra pasta.
 - **git checkout -- meuArquivo.java** </br>  
+
 - **git reset -- meuArquivo.java** </br>
     Removendo alterações de um arquivo quando estiver na área de stage.
 - **git reset HEAD nomeArquivo.java** </br>
@@ -75,6 +78,8 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
     Remover todos arquivos que ainda não estão na stade.
 - **git branch** </br>
     Verificando em qual branch estou no momento.
+- **git branch -r** </br>
+    O códifo acima mostra as branches, após ter feito um git clone master.
 - **git branch nomeMeuBranch** </br>
     Criando uma branch.
 - **git checkout nomeMeuBranch** </br> 
@@ -85,6 +90,9 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
     Removendo a branch.
 - **git merge nomeMinhaBrach** </br>
     Pegando as alterações que foram feitas na branch "nomeMinhaBrach" e jogando na branch "master".
+- **git merge --abort**
+    Em caso de um conflito o código acima cancelará o merge.
+    
 
 ## Outros Comandos ##
 - **pwd** </br>
@@ -97,6 +105,5 @@ Nessa documentação será mostrado alguns dos principais códigos usados no Git
     abrir arquivos ocultos.
 - **mkdir nomedapasta** </br>
     cria uma pasta em qual diretório você está no momento.
-    
-    #### Legende conosco ####
+
   
